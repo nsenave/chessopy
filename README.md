@@ -31,6 +31,7 @@ Pour l'instant, le choix du dictionnaire de coups à utiliser se fait dans le co
 Au moment où l'application est lancée, un dictionnaire de coup est chargé en fonction de la valeur de la variable `LINES_TO_BE_LOADED` (elle juste après "FOLDER_PATH").
 
 J'ai enregistré les coups de la française, mettre "french" à cette variable va charger ces lignes (qui sont dans le fichier `database/french_database.json`).
+
 ```LINES_TO_BE_LOADED = "french"```
 
 ### Enregistrer ses lignes
@@ -38,6 +39,7 @@ J'ai enregistré les coups de la française, mettre "french" à cette variable v
 Chaque coup joué est enregistré dans le dictionnaire de coups chargé au lancement de l'appli. Le bouton "Save move lines" va créer (ou écraser) le fichier `database/new_database.json`.
 
 Pour partir d'un dictionnaire vide :
+
 ```LINES_TO_BE_LOADED = "new"```
 
 Pour charger ses propres lignes, le fonctionnement actuel est pas compliqué mais dégueu, je change ça bientôt. En attendant, demandez-moi si vous comprenez pas comment faire et que vous voulez vous en servir.
