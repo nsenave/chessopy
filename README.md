@@ -54,7 +54,7 @@ L'appli remplit le cas d'utilisation pour lequel je l'ai conçue  (enregistrer d
 
 * **En priorité** : ajouter les roques (pour l'instant on peut roquer "à la main", c'est pas fou)
 * Utiliser des chemins relatifs pour l'accès au fichier.
-* Mettre une barre de menus (`menubar = Menu(root)`, cf. (https://pythonspot.com/tk-menubar/) par exemple)
+* Mettre une barre de menus (`menubar = Menu(root)`, cf. https://pythonspot.com/tk-menubar/ par exemple)
 * De manière générale : faire en sorte que tout puisse se faire dans l'interface sans devoir renommer les fichiers (bases de données de coups), ou modifier des variables dans le code.
 * Intégrer un système de dictionnaire avec plusieurs "grappes" correspondant à différents ouvertures (un grapge "french" pour l'ouverture française etc.).
 * Ajouter un bouton "Record moves"/"Stop recording" qui active/désactive l'enregistrement des coups dans le dictionnaire.
@@ -75,7 +75,7 @@ Et bien d'autres choses...
 ### Allez pourquoi pas / Plus tard
 
 * Implémenter les règles des échecs (vérifier si le roque est possible, s'il y a échec etc.) dans les classes métier.
-* OU : Remplacer tous les objets métier par ceux de la librairie `chess` de Niklas Fiekas ((https://github.com/niklasf/python-chess))
+* OU : Remplacer tous les objets métier par ceux de la librairie `chess` de Niklas Fiekas https://github.com/niklasf/python-chess
 
 NB : la deuxième option impliquerait aussi le changement de toutes les références aux objets métiers dans les objets graphiques, à faire dans un fork indépendant.
 
