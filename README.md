@@ -30,9 +30,11 @@ Pour l'instant, le choix du dictionnaire de coups à utiliser se fait dans le co
 
 Au moment où l'application est lancée, un dictionnaire de coup est chargé en fonction de la valeur de la variable `LINES_TO_BE_LOADED` (elle juste après "FOLDER_PATH").
 
-J'ai enregistré les coups de la française, mettre "french" à cette variable va charger ces lignes (qui sont dans le fichier `database/french_database.json`).
+J'ai enregistré les coups de la variante d'avance dans la française, mettre "french" à cette variable va charger ces lignes (qui sont dans le fichier `database/french_database.json`).
 
 ```LINES_TO_BE_LOADED = "french"```
+
+Pour s'entraîner appuyer sur "Start training", jouer le premier coup pour jouer avec les blancs, sinon appuyer sur "Play random move" pour faire jouer un coup aux blancs puis jouer un coup avec les noirs, et c'est parti !
 
 ### Enregistrer ses lignes
 
